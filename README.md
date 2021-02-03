@@ -5,6 +5,7 @@
 [![Discord](https://discordapp.com/api/guilds/252317073814978561/embed.png)](https://discord.gg/wrSqK6k)
 
 SHOWCASE: https://www.youtube.com/watch?v=8fR8ZqJAPPs&feature=youtu.be
+<p></p>
 W nagraniu nie pokazałem sprzedawania ryb - jak to wygląda ale jest poprostu marker do, którego podchodzisz klikasz E i sprzedane.
 
 EXAMPLE SERVER.CFG:
