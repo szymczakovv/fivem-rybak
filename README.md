@@ -9,14 +9,14 @@ SHOWCASE: https://www.youtube.com/watch?v=8fR8ZqJAPPs&feature=youtu.be
 W nagraniu nie pokazałem sprzedawania ryb - jak to wygląda ale jest poprostu marker do, którego podchodzisz klikasz E i sprzedane.
 <p></p>
 EXAMPLE SERVER.CFG:
-```
+`
 INSERT INTO `jobs` (`name`, `label`, `whitelisted`, `SecondaryJob`) VALUES
-('rybak', 'Rybak', 0, 0)
+('rybak', 'Rybak', 0, 0);
 
 INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
 ('bigryba', 'Duża Ryba', 35, 0, 1),
-('ryba', 'Ryba', 55, 0, 1)
-```
+('ryba', 'Ryba', 55, 0, 1);
+`
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
 
 <p></p>
