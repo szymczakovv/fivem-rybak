@@ -7,7 +7,17 @@
 SHOWCASE: https://www.youtube.com/watch?v=8fR8ZqJAPPs&feature=youtu.be
 <p></p>
 W nagraniu nie pokazałem sprzedawania ryb - jak to wygląda ale jest poprostu marker do, którego podchodzisz klikasz E i sprzedane.
+<p></p>
+SQL:
+```
+INSERT INTO `jobs` (`name`, `label`, `whitelisted`, `SecondaryJob`) VALUES
+('rybak', 'Rybak', 0, 0);
 
+INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
+('bigryba', 'Duża Ryba', 35, 0, 1),
+('ryba', 'Ryba', 55, 0, 1);
+```
+<p></p>
 EXAMPLE SERVER.CFG:
 ```
 ensure mapmanager
