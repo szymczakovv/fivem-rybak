@@ -16,7 +16,7 @@ ensure sessionmanager
 ensure basic-gamemode
 ensure hardcap
 ensure rconlog
-ensure esx_civmenu
+ensure esx_rybak
 ```
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
 
