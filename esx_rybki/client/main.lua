@@ -397,7 +397,11 @@ function Openf6menu()
         },
         function(data, menu)
 			if data.current.value == 'pal' then
+			     if(GetDistanceBetweenCoords(coords, 1678.48, 39.81, 161.76, true) < 150) then
 				TriggerServerEvent('rybki:checkmyitem')
+			     else
+				 TriggerEvent("esx:showNotification", "Zbyt bardzo się oddaliłeś, nie możesz tu łowić")
+			     end
             end
         end,
         function(data, menu)
